@@ -22,6 +22,12 @@ void Solver::run() {
         } else if (m_target_puzzle_number == 2) {
             answer = solveDay1Second(ifs);
         }
+    } else if (m_target_day == 2) {
+        if (m_target_puzzle_number == 1) {
+            answer = solveDay2First(ifs);
+        } else if (m_target_puzzle_number == 2) {
+            answer = solveDay2Second(ifs);
+        }
     }
 
     if (answer.has_value()) {
