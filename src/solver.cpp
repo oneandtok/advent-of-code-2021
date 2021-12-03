@@ -28,6 +28,12 @@ void Solver::run() {
         } else if (m_target_puzzle_number == 2) {
             answer = solveDay2Second(ifs);
         }
+    } else if (m_target_day == 3) {
+        if (m_target_puzzle_number == 1) {
+            answer = solveDay3First(ifs);
+        } else if (m_target_puzzle_number == 2) {
+            answer = solveDay3Second(ifs);
+        }
     }
 
     if (answer.has_value()) {

@@ -14,6 +14,8 @@ public:
     int solveDay1Second(std::ifstream&);
     int solveDay2First(std::ifstream&);
     int solveDay2Second(std::ifstream&);
+    int solveDay3First(std::ifstream&);
+    int solveDay3Second(std::ifstream&);
 
 private:
     int m_target_day;
